@@ -16,8 +16,7 @@ request({
 }, function(error, response, body) {
 	recipe = body;
 });
-
-//nam = _.pluck
+ //stöff
 
 /*
 function fetch(url, callback) {
