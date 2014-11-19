@@ -5,7 +5,8 @@ var fs	= require('fs'),
 	_	= require('lodash');
 
 recipe = ""
-url = "http://api.yummly.com/v1/api/recipes?_app_id=92e09229&_app_key=cac7ebbcf3c99974ba11ea55be2ad2c6&q=onion+soup"
+value = "&allowedCuisine[]=cuisine^cuisine-american"
+url = "http://api.yummly.com/v1/api/recipes?_app_id=92e09229&_app_key=cac7ebbcf3c99974ba11ea55be2ad2c6&"+value;
 request({
   uri: url,
   method: "GET",
