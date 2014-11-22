@@ -1,11 +1,47 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  max-width: 1200px;
+  width: 100%;
+  box-sizing: border-box;
+  padding:10%;
 }
 
 a {
   color: #00B7FF;
 }
 .recipe{
+	border: solid 10px black;
+	width: 32%;
+	height: 18em;
+	overflow: hidden;
+	box-sizing: border-box;
+	float: left;
+	position: relative;
+	margin: 1px;
+}
+.header{
+	width: 100%;
+	height: 10em;
+}
+.h2, .img{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 1%;
+	width: 50%;
+	height: 100%;
+	float:left;
+	overflow: hidden;
+}
+img{
+	width: 100%;
+}
+.takki{
+	width: 100px;
 	border: solid 1px black;
+	background-color: red;
+	position: absolute;
+	bottom: 0;
+}
+p{
+	max-width: 100%;
 }
